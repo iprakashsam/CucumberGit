@@ -1,4 +1,4 @@
-@adactin @regression @sanity
+@adactinpage @regression @sanity
 Feature: To validate the adactin login page
 
 Background:
