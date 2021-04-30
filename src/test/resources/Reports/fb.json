@@ -1,0 +1,219 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9592208417,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in adactin login page",
+            "match": {
+              "location": "AdactinPage.user_is_in_adactin_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T11:25:19.130Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6498024809,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before_scernario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 256582,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before_sanity_scenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 166167,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before_regression_scenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To validate adactin page",
+        "description": "",
+        "id": "to-validate-the-adactin-login-page;to-validate-adactin-page",
+        "after": [
+          {
+            "result": {
+              "duration": 270464599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after_scenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 125603,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after_sanity_scenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 107520,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after_regression_scenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 831572856,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter valid username and password in adactin page",
+            "match": {
+              "location": "AdactinPage.user_enter_valid_username_and_password_in_adactin_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "GnanaPrakash",
+                  "holonext44"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2634191555,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click the login button in adactin page",
+            "match": {
+              "location": "AdactinPage.user_click_the_login_button_in_adactin_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3509377455,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the second page and search hotel",
+            "match": {
+              "location": "AdactinPage.user_enters_the_second_page_and_search_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1404700872,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters the third page and select hotel",
+            "match": {
+              "location": "AdactinPage.user_enters_the_third_page_and_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2174643266,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters the fourth page and book hotel",
+            "match": {
+              "location": "AdactinPage.user_enters_the_fourth_page_and_book_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6974704455,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the last page and booking details is displayed",
+            "match": {
+              "location": "AdactinPage.user_enters_the_last_page_and_booking_details_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adactinpage"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the adactin login page",
+    "description": "",
+    "id": "to-validate-the-adactin-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Adactin.feature",
+    "tags": [
+      {
+        "name": "@adactinpage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 14
+        }
+      },
+      {
+        "name": "@sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 26
+        }
+      }
+    ]
+  }
+]
